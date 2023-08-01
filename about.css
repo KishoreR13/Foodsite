@@ -1,0 +1,53 @@
+/*
+.para{
+    height: 570px;
+    width: 100%;
+    border: 5px inset rgb(37, 36, 36);
+} */
+*{
+    margin: 0px;
+}
+body{
+    text-align: center;
+    background-color: black;   
+}
+.back{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(74, 62, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.back a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.back a:hover{
+    padding-top: 1rem;
+   color: rgb(255, 0, 0);
+}
+h1{
+    color: red;
+    font-size: 8rem;
+    padding-bottom: 5rem;
+}
+p{
+    background-color: black;
+    color: red;
+    font-size: 2.4rem;
+    text-indent: 15rem;
+    word-spacing: 10px;
+    text-align: justify;
+
+}
+
+.about{
+    width: 90%;
+    margin: 5rem;
+}

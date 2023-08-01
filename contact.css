@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    margin:-2px;
+}
+.back{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(74, 62, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.back a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.back a:hover{
+    padding-top: 1rem;
+   color: rgb(255, 0, 0);
+}
+.form{
+    padding-top: 10px;
+    height: 540px;
+    width: 350px;
+    border: 2px solid rgb(72, 67, 67);
+    border-radius: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main{
+    background-color: black;
+    font-size: 25px;
+    padding-left: 10px;
+    color: red;
+    text-align: center;
+    text-transform:capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+h1{
+    color: red;
+    text-align: center;
+    margin: 40px 0;
+    background-color: rgb(72, 67, 67);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.form input{
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form button{
+           position: relative;
+           top: 30px;
+           left: 140px;
+           font-size: 20px;
+           width: 5rem;
+           color: red;
+           background-color: black;
+           cursor: pointer;
+}
+.form button:hover{
+    font-size: 20px;
+}
+h1:hover{
+    color: white;
+}
+h2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 650px;
+}
+.ima{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:660px;
+    background-color: rgb(72, 67, 67);
+    padding: 1rem 0;
+}
